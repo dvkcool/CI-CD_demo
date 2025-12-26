@@ -149,11 +149,6 @@ const config: Config = {
 
   // The test environment that will be used for testing
   testEnvironment: "jsdom",
-  transform: {
-    "^.+\\.(ts|tsx)?$": "babel-jest",
-    // or a more general one
-    // "^.+\\.[t|j]sx?$": "babel-jest"
-  },
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
 
