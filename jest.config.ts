@@ -148,8 +148,12 @@ const config: Config = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  // testEnvironment: "jest-environment-node",
-
+  testEnvironment: "jsdom",
+  transform: {
+    "^.+\\.(ts|tsx)?$": "babel-jest",
+    // or a more general one
+    // "^.+\\.[t|j]sx?$": "babel-jest"
+  },
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
 
