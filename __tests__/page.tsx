@@ -8,3 +8,9 @@ describe('basic test', () => {
     expect(1 + 1).toBe(2);
   });
 });
+
+describe('multiply numbers test', () => {
+  it('multiplies numbers', () => {
+    expect(2 * 3).toBe(8);
+  });
+});
